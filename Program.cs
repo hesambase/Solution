@@ -15,4 +15,6 @@ for (int i = 0; i < lenght; i++)
 Console.WriteLine("please enter the input power");
 power = System.Convert.ToInt32(Console.ReadLine());
 int output=_solution.BagOfTokensScore(tokens, power);
+
 Console.WriteLine(output);
+Console.ReadKey();
